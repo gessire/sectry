@@ -558,55 +558,140 @@ p, li { white-space: pre-wrap; }
      <widget class="QTableWidget" name="tableWidget">
       <property name="geometry">
        <rect>
-        <x>70</x>
-        <y>100</y>
-        <width>651</width>
+        <x>40</x>
+        <y>80</y>
+        <width>761</width>
         <height>301</height>
        </rect>
       </property>
       <row>
        <property name="text">
-        <string>1</string>
+        <string>Easy</string>
        </property>
       </row>
       <row>
        <property name="text">
-        <string>2</string>
+        <string>Medium</string>
        </property>
       </row>
       <row>
        <property name="text">
-        <string>3</string>
-       </property>
-      </row>
-      <row>
-       <property name="text">
-        <string>4</string>
-       </property>
-      </row>
-      <row>
-       <property name="text">
-        <string>5</string>
+        <string>Hard</string>
        </property>
       </row>
       <column>
        <property name="text">
-        <string>Name</string>
+        <string>Art</string>
        </property>
       </column>
       <column>
        <property name="text">
-        <string>Difficulty</string>
+        <string>History</string>
        </property>
       </column>
       <column>
        <property name="text">
-        <string>Subject</string>
+        <string>Sport</string>
        </property>
       </column>
       <column>
        <property name="text">
-        <string>score</string>
+        <string>General Knowledge</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Film</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Musicals &amp; Theatres</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Music</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Television</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Video Games</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Board Games</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Science &amp; Nature</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Computers</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Mathematics</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Mythology</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Geography</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Politics</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Celebrities</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Animals</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Vehicles</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Comics</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Gadgets</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Anime &amp; Manga</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Cartoon &amp; Animations</string>
        </property>
       </column>
      </widget>
