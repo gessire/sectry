@@ -24,7 +24,7 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>4</number>
+     <number>0</number>
     </property>
     <widget class="QWidget" name="p0">
      <widget class="QPushButton" name="pvpbtn">
@@ -156,12 +156,26 @@ p, li { white-space: pre-wrap; }
        </rect>
       </property>
      </widget>
+     <widget class="QPushButton" name="pushButton">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>410</y>
+        <width>91</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Back</string>
+      </property>
+     </widget>
      <zorder>listView</zorder>
      <zorder>subnamebtn</zorder>
      <zorder>label</zorder>
      <zorder>label_2</zorder>
      <zorder>player1</zorder>
      <zorder>player2</zorder>
+     <zorder>pushButton</zorder>
     </widget>
     <widget class="QWidget" name="p2">
      <widget class="QGroupBox" name="groupBox">
@@ -370,6 +384,19 @@ p, li { white-space: pre-wrap; }
       </property>
       <property name="text">
        <string>start</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="geometry">
+       <rect>
+        <x>330</x>
+        <y>320</y>
+        <width>101</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Back</string>
       </property>
      </widget>
     </widget>
@@ -708,6 +735,19 @@ p, li { white-space: pre-wrap; }
        <string>start</string>
       </property>
      </widget>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>460</y>
+        <width>91</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Back</string>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="p5">
      <widget class="QTableWidget" name="tableWidget">
@@ -961,6 +1001,32 @@ p, li { white-space: pre-wrap; }
       </property>
       <property name="value">
        <number>24</number>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>30</y>
+        <width>111</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>score :</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>700</x>
+        <y>40</y>
+        <width>101</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>high score :</string>
       </property>
      </widget>
     </widget>
