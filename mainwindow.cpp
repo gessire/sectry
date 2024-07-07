@@ -18,20 +18,33 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-
-void MainWindow::on_pushButton_clicked()
+void MainWindow::on_pvpbtn_clicked()
 {
     ui->stackedWidget->setCurrentIndex(1);
 }
 
 
-void MainWindow::on_pushButton_2_clicked()
+void MainWindow::on_survivalbtn_clicked()
+{
+   ui->stackedWidget->setCurrentIndex(4);
+}
+
+
+
+void MainWindow::on_subnamebtn_clicked()
 {
     ui->stackedWidget->setCurrentIndex(2);
 }
 
 
-void MainWindow::on_pushButton_4_clicked()
+
+void MainWindow::on_pvpstartbtn_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(3);
+}
+
+
+void MainWindow::on_nextbtn_clicked()
 {
     ui->stackedWidget->setCurrentIndex(3);
 }

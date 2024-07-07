@@ -16,11 +16,16 @@ public:
     ~MainWindow();
 
 private slots:
-    void on_pushButton_clicked();
 
-    void on_pushButton_2_clicked();
+    void on_pvpbtn_clicked();
 
-    void on_pushButton_4_clicked();
+    void on_survivalbtn_clicked();
+
+    void on_subnamebtn_clicked();
+
+    void on_pvpstartbtn_clicked();
+
+    void on_nextbtn_clicked();
 
 private:
     Ui::MainWindow *ui;
