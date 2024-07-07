@@ -17,14 +17,14 @@
    <widget class="QStackedWidget" name="stackedWidget">
     <property name="geometry">
      <rect>
-      <x>-10</x>
-      <y>-30</y>
+      <x>-20</x>
+      <y>-20</y>
       <width>821</width>
       <height>601</height>
      </rect>
     </property>
     <property name="currentIndex">
-     <number>5</number>
+     <number>4</number>
     </property>
     <widget class="QWidget" name="p0">
      <widget class="QPushButton" name="pvpbtn">
@@ -169,7 +169,7 @@ p, li { white-space: pre-wrap; }
        <rect>
         <x>80</x>
         <y>60</y>
-        <width>161</width>
+        <width>261</width>
         <height>131</height>
        </rect>
       </property>
@@ -181,7 +181,7 @@ p, li { white-space: pre-wrap; }
         <rect>
          <x>20</x>
          <y>60</y>
-         <width>121</width>
+         <width>201</width>
          <height>31</height>
         </rect>
        </property>
@@ -217,7 +217,7 @@ p, li { white-space: pre-wrap; }
        </item>
        <item>
         <property name="text">
-         <string>Nature</string>
+         <string>Science &amp; Nature</string>
         </property>
        </item>
        <item>
@@ -240,12 +240,77 @@ p, li { white-space: pre-wrap; }
          <string>Animals</string>
         </property>
        </item>
+       <item>
+        <property name="text">
+         <string>Musicals &amp; Theatres</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Television</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Video Games </string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Board Games </string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Mathematics</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Mythology</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Politics </string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Celebrities </string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Vehicles</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Comics</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Gadgets</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Anime &amp; Manga</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Cartoon &amp; Animations</string>
+        </property>
+       </item>
       </widget>
      </widget>
      <widget class="QGroupBox" name="groupBox_2">
       <property name="geometry">
        <rect>
-        <x>280</x>
+        <x>410</x>
         <y>60</y>
         <width>221</width>
         <height>131</height>
@@ -297,7 +362,7 @@ p, li { white-space: pre-wrap; }
      <widget class="QPushButton" name="pvpstartbtn">
       <property name="geometry">
        <rect>
-        <x>210</x>
+        <x>330</x>
         <y>240</y>
         <width>101</width>
         <height>41</height>
@@ -420,9 +485,9 @@ p, li { white-space: pre-wrap; }
      <widget class="QGroupBox" name="groupBox_3">
       <property name="geometry">
        <rect>
-        <x>200</x>
+        <x>90</x>
         <y>170</y>
-        <width>231</width>
+        <width>261</width>
         <height>161</height>
        </rect>
       </property>
@@ -434,7 +499,7 @@ p, li { white-space: pre-wrap; }
         <rect>
          <x>30</x>
          <y>70</y>
-         <width>161</width>
+         <width>201</width>
          <height>31</height>
         </rect>
        </property>
@@ -455,22 +520,112 @@ p, li { white-space: pre-wrap; }
        </item>
        <item>
         <property name="text">
-         <string>Animal</string>
+         <string>Animals</string>
         </property>
        </item>
        <item>
         <property name="text">
-         <string>New Item</string>
+         <string>Books</string>
         </property>
        </item>
        <item>
         <property name="text">
-         <string>New Item</string>
+         <string>Film</string>
         </property>
        </item>
        <item>
         <property name="text">
-         <string>New Item</string>
+         <string>Music</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Musicals &amp; Theatres</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Television</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Video Games</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Board Games</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Science &amp; Nature</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Computers</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Mathematics</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Mythology</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Sport</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>History</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Geography</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Politics </string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Celebrities</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Vehicles </string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Comics</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Gadgets</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Anime &amp; Manga</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Cartoon &amp; Animations</string>
         </property>
        </item>
       </widget>
@@ -478,9 +633,9 @@ p, li { white-space: pre-wrap; }
      <widget class="QGroupBox" name="groupBox_4">
       <property name="geometry">
        <rect>
-        <x>510</x>
+        <x>480</x>
         <y>170</y>
-        <width>120</width>
+        <width>161</width>
         <height>161</height>
        </rect>
       </property>
@@ -530,8 +685,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QPushButton" name="recordbtn">
       <property name="geometry">
        <rect>
-        <x>640</x>
-        <y>60</y>
+        <x>610</x>
+        <y>70</y>
         <width>131</width>
         <height>61</height>
        </rect>
@@ -543,9 +698,9 @@ p, li { white-space: pre-wrap; }
      <widget class="QPushButton" name="startbtn">
       <property name="geometry">
        <rect>
-        <x>380</x>
-        <y>370</y>
-        <width>141</width>
+        <x>350</x>
+        <y>380</y>
+        <width>131</width>
         <height>51</height>
        </rect>
       </property>
@@ -558,10 +713,10 @@ p, li { white-space: pre-wrap; }
      <widget class="QTableWidget" name="tableWidget">
       <property name="geometry">
        <rect>
-        <x>40</x>
-        <y>80</y>
-        <width>761</width>
-        <height>301</height>
+        <x>10</x>
+        <y>90</y>
+        <width>791</width>
+        <height>281</height>
        </rect>
       </property>
       <row>
