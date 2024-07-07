@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>800</width>
-    <height>600</height>
+    <height>522</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -24,7 +24,7 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>7</number>
     </property>
     <widget class="QWidget" name="p0">
      <widget class="QPushButton" name="pvpbtn">
@@ -80,7 +80,7 @@
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; color:#55aaff;&quot;&gt;Welcome to&lt;/span&gt;&lt;span style=&quot; font-size:12pt; color:#aaaaff;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#55aaff;&quot;&gt;Aghche Game&lt;/span&gt;&lt;span style=&quot; font-size:12pt; color:#55aaff;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; color:#55aaff;&quot;&gt;Welcome to&lt;/span&gt;&lt;span style=&quot; font-size:12pt; color:#aaaaff;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#55aaff;&quot;&gt;Quiz Game&lt;/span&gt;&lt;span style=&quot; font-size:12pt; color:#55aaff;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
 &lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; color:#aa0000;&quot;&gt;choose your mode&lt;/span&gt;&lt;span style=&quot; color:#aa0000;&quot;&gt; &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
@@ -404,9 +404,9 @@ p, li { white-space: pre-wrap; }
      <widget class="QRadioButton" name="radioButton_4">
       <property name="geometry">
        <rect>
-        <x>190</x>
-        <y>190</y>
-        <width>85</width>
+        <x>120</x>
+        <y>290</y>
+        <width>161</width>
         <height>20</height>
        </rect>
       </property>
@@ -417,9 +417,9 @@ p, li { white-space: pre-wrap; }
      <widget class="QRadioButton" name="radioButton_5">
       <property name="geometry">
        <rect>
-        <x>380</x>
-        <y>190</y>
-        <width>85</width>
+        <x>370</x>
+        <y>290</y>
+        <width>171</width>
         <height>20</height>
        </rect>
       </property>
@@ -430,22 +430,22 @@ p, li { white-space: pre-wrap; }
      <widget class="QRadioButton" name="radioButton_6">
       <property name="geometry">
        <rect>
-        <x>190</x>
-        <y>260</y>
-        <width>85</width>
+        <x>120</x>
+        <y>340</y>
+        <width>141</width>
         <height>20</height>
        </rect>
       </property>
       <property name="text">
-       <string>RadioButton</string>
+       <string>RadioButton                 </string>
       </property>
      </widget>
      <widget class="QRadioButton" name="radioButton_7">
       <property name="geometry">
        <rect>
         <x>380</x>
-        <y>250</y>
-        <width>85</width>
+        <y>340</y>
+        <width>171</width>
         <height>20</height>
        </rect>
       </property>
@@ -456,8 +456,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QGraphicsView" name="graphicsView">
       <property name="geometry">
        <rect>
-        <x>80</x>
-        <y>31</y>
+        <x>70</x>
+        <y>110</y>
         <width>511</width>
         <height>291</height>
        </rect>
@@ -466,8 +466,8 @@ p, li { white-space: pre-wrap; }
      <widget class="QTextBrowser" name="textBrowser">
       <property name="geometry">
        <rect>
-        <x>110</x>
-        <y>60</y>
+        <x>90</x>
+        <y>150</y>
         <width>451</width>
         <height>101</height>
        </rect>
@@ -477,7 +477,7 @@ p, li { white-space: pre-wrap; }
       <property name="geometry">
        <rect>
         <x>500</x>
-        <y>340</y>
+        <y>410</y>
         <width>80</width>
         <height>22</height>
        </rect>
@@ -490,13 +490,26 @@ p, li { white-space: pre-wrap; }
       <property name="geometry">
        <rect>
         <x>80</x>
-        <y>340</y>
+        <y>410</y>
         <width>118</width>
         <height>23</height>
        </rect>
       </property>
       <property name="value">
        <number>24</number>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>35</y>
+        <width>171</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>player :</string>
       </property>
      </widget>
      <zorder>graphicsView</zorder>
@@ -507,6 +520,7 @@ p, li { white-space: pre-wrap; }
      <zorder>textBrowser</zorder>
      <zorder>nextbtn</zorder>
      <zorder>progressBar</zorder>
+     <zorder>label_5</zorder>
     </widget>
     <widget class="QWidget" name="p4">
      <widget class="QGroupBox" name="groupBox_3">
@@ -1030,6 +1044,105 @@ p, li { white-space: pre-wrap; }
       </property>
      </widget>
     </widget>
+    <widget class="QWidget" name="p7">
+     <widget class="QTextBrowser" name="textBrowser_3">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>40</y>
+        <width>231</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt; color:#55aaff;&quot;&gt;Winner :&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:22pt; color:#55aaff;&quot;&gt;name &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:10pt; color:#55aaff;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_5">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>210</y>
+        <width>121</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>player 1 score :</string>
+      </property>
+      <widget class="QLabel" name="label_6">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>50</y>
+         <width>47</width>
+         <height>14</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_6">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>210</y>
+        <width>121</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>player 2 score :</string>
+      </property>
+      <widget class="QLabel" name="label_7">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>50</y>
+         <width>47</width>
+         <height>14</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>350</y>
+        <width>141</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Start new Game</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>440</y>
+        <width>101</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Exit </string>
+      </property>
+     </widget>
+    </widget>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
@@ -1047,18 +1160,18 @@ p, li { white-space: pre-wrap; }
  <resources/>
  <connections>
   <connection>
-   <sender>exitbtn</sender>
+   <sender>pushButton_5</sender>
    <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
    <slot>close()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>200</x>
-     <y>292</y>
+     <x>194</x>
+     <y>456</y>
     </hint>
     <hint type="destinationlabel">
-     <x>174</x>
-     <y>340</y>
+     <x>-58</x>
+     <y>469</y>
     </hint>
    </hints>
   </connection>
