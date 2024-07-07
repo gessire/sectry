@@ -27,6 +27,12 @@ private slots:
 
     void on_nextbtn_clicked();
 
+    void on_recordbtn_clicked();
+
+    void on_startbtn_clicked();
+
+    void on_backbtn_clicked();
+
 private:
     Ui::MainWindow *ui;
 };

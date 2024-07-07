@@ -49,3 +49,21 @@ void MainWindow::on_nextbtn_clicked()
     ui->stackedWidget->setCurrentIndex(3);
 }
 
+
+void MainWindow::on_recordbtn_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(5);
+}
+
+
+void MainWindow::on_startbtn_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(6);
+}
+
+
+void MainWindow::on_backbtn_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(4);
+}
+
