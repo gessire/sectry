@@ -17,14 +17,14 @@
    <widget class="QStackedWidget" name="stackedWidget">
     <property name="geometry">
      <rect>
-      <x>-20</x>
-      <y>-20</y>
-      <width>801</width>
+      <x>-10</x>
+      <y>-10</y>
+      <width>821</width>
       <height>601</height>
      </rect>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>2</number>
     </property>
     <widget class="QWidget" name="p1">
      <widget class="QPushButton" name="pushButton">
@@ -163,7 +163,139 @@ p, li { white-space: pre-wrap; }
      <zorder>player1</zorder>
      <zorder>player2</zorder>
     </widget>
-    <widget class="QWidget" name="p3"/>
+    <widget class="QWidget" name="p3">
+     <widget class="QGroupBox" name="groupBox">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>60</y>
+        <width>161</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>          choose the subject</string>
+      </property>
+      <widget class="QComboBox" name="comboBox">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>60</y>
+         <width>121</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>Art</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Computer</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>General Knowledge</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Books</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Film</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Music</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Nature</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Sport</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>History</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Geography</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Animals</string>
+        </property>
+       </item>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_2">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>60</y>
+        <width>221</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>           choose difficulty</string>
+      </property>
+      <widget class="QRadioButton" name="radioButton">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>30</y>
+         <width>85</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Easy</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="radioButton_2">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>60</y>
+         <width>85</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Medium</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="radioButton_3">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>90</y>
+         <width>85</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Hard</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page"/>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
