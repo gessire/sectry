@@ -230,7 +230,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
         <rect>
          <x>50</x>
          <y>80</y>
-         <width>281</width>
+         <width>327</width>
          <height>80</height>
         </rect>
        </property>
@@ -644,7 +644,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
        </rect>
       </property>
       <property name="title">
-       <string>player 1 score :</string>
+       <string/>
       </property>
       <widget class="QLabel" name="player1_score">
        <property name="geometry">
@@ -670,7 +670,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
        </rect>
       </property>
       <property name="title">
-       <string>player 2 score :</string>
+       <string/>
       </property>
       <widget class="QLabel" name="player2_score">
        <property name="geometry">
@@ -696,23 +696,10 @@ li.checked::marker { content: &quot;\2612&quot;; }
        </rect>
       </property>
       <property name="text">
-       <string>Start new Game</string>
+       <string>Next Round</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pvp_exit_btn">
-      <property name="geometry">
-       <rect>
-        <x>450</x>
-        <y>580</y>
-        <width>111</width>
-        <height>41</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Exit </string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_3">
+     <widget class="QLabel" name="winner_label">
       <property name="geometry">
        <rect>
         <x>390</x>
@@ -728,6 +715,32 @@ li.checked::marker { content: &quot;\2612&quot;; }
       </property>
       <property name="text">
        <string>Round Winner :</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="player1_label">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>290</y>
+        <width>141</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="player2_label">
+      <property name="geometry">
+       <rect>
+        <x>560</x>
+        <y>290</y>
+        <width>141</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
       </property>
      </widget>
     </widget>
@@ -1112,22 +1125,6 @@ li.checked::marker { content: &quot;\2612&quot;; }
  </widget>
  <resources/>
  <connections>
-  <connection>
-   <sender>pvp_exit_btn</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>close()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>430</x>
-     <y>581</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>-58</x>
-     <y>469</y>
-    </hint>
-   </hints>
-  </connection>
   <connection>
    <sender>exit_btn</sender>
    <signal>clicked()</signal>

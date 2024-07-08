@@ -1,0 +1,425 @@
+{
+    "response_code": 0,
+    "results": [
+        {
+            "category": "Entertainment: Video Games",
+            "correct_answer": "Bayonetta",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "Cloud",
+                "Ryu",
+                "Megaman"
+            ],
+            "question": "Which of these characters won the Super Smash Bros. Fighter Ballot in 2015?",
+            "type": "multiple"
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "correct_answer": "Montana",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "Idaho",
+                "Wyoming",
+                "North Carolina"
+            ],
+            "question": "In which U.S. state is Far Cry 5&#039;s fictional setting &#039;Hope County&#039; located?",
+            "type": "multiple"
+        },
+        {
+            "category": "Entertainment: Music",
+            "correct_answer": "John",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "Paul",
+                "George",
+                "Ringo"
+            ],
+            "question": "Which Beatle led the way across the zebra crossing on the Abbey Road album cover?",
+            "type": "multiple"
+        },
+        {
+            "category": "Geography",
+            "correct_answer": "North America",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "South America",
+                "Asia",
+                "Africa"
+            ],
+            "question": "Where is the &quot;Sonoran Desert&quot; located?",
+            "type": "multiple"
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "correct_answer": "Madotsuki",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "Masada",
+                "Uboa",
+                "Poniko"
+            ],
+            "question": "Who is the character you play as in Yume Nikki?",
+            "type": "multiple"
+        },
+        {
+            "category": "Vehicles",
+            "correct_answer": "Camry",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "Fusion",
+                "Model A",
+                "F-150"
+            ],
+            "question": "Which one of the following is not made by Ford?",
+            "type": "multiple"
+        },
+        {
+            "category": "Entertainment: Television",
+            "correct_answer": "Look into sky and yell loudly in mourning.",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "Kiss the jagged forehead before burial.",
+                "Shoot into space in a torpedo casing.",
+                "Split the deceased&#039;s earnings between bloodkin."
+            ],
+            "question": "In &quot;Star Trek&quot;, what is the Klingon death ritual?",
+            "type": "multiple"
+        },
+        {
+            "category": "Science: Computers",
+            "correct_answer": "Luna",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "Neptune",
+                "Whistler",
+                "Bliss"
+            ],
+            "question": "What is the name of the default theme that is installed with Windows XP?",
+            "type": "multiple"
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "correct_answer": "Adol Christin ",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "Character doesn&#039;t have a name",
+                "Estelle Bright",
+                "Roger Wilco"
+            ],
+            "question": "Who is the main character in most of the games of the YS series?",
+            "type": "multiple"
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "correct_answer": "Square Enix",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "Capcom",
+                "Konami",
+                "Blizzard"
+            ],
+            "question": "Which company made the Japanese RPG &quot;Dragon Quest&quot;?",
+            "type": "multiple"
+        },
+        {
+            "category": "History",
+            "correct_answer": "D-Day",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "Atomic bombings of Hiroshima and Nagasaki",
+                "Attack on Pearl Harbor",
+                "The Liberation of Paris"
+            ],
+            "question": "What happened on June 6, 1944?",
+            "type": "multiple"
+        },
+        {
+            "category": "Art",
+            "correct_answer": "Salvador Dali",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "Pablo Picasso",
+                "Andy Warhol",
+                "Vincent van Gogh"
+            ],
+            "question": "Who designed the Chupa Chups logo?",
+            "type": "multiple"
+        },
+        {
+            "category": "Entertainment: Film",
+            "correct_answer": "Steve Buscemi",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "Kevin Spacey",
+                "Benicio Del Toro",
+                "Gabriel Byrne"
+            ],
+            "question": "Which of the following actors does not play a role in the movie &quot;The Usual Suspects?&quot;",
+            "type": "multiple"
+        },
+        {
+            "category": "Entertainment: Film",
+            "correct_answer": "Sugar",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "Honey",
+                "Caramel",
+                "Candy"
+            ],
+            "question": "What was Marilyn Monroe`s character&#039;s first name in the film &quot;Some Like It Hot&quot;?",
+            "type": "multiple"
+        },
+        {
+            "category": "Entertainment: Books",
+            "correct_answer": "Procompsognathus",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "Dilophosaurus",
+                "Tyrannosaurus Rex",
+                "Velociraptor"
+            ],
+            "question": "In Michael Crichton&#039;s novel &quot;Jurassic Park&quot;, John Hammond meets his demise at the claws of which dinosaur?",
+            "type": "multiple"
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "correct_answer": "Worms 4: Mayhem",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "Worms W.M.D",
+                "Worms Reloaded",
+                "Worms: Open Warfare 2"
+            ],
+            "question": "Which of these &quot;Worms&quot; games featured 3D gameplay?",
+            "type": "multiple"
+        },
+        {
+            "category": "Sports",
+            "correct_answer": "Portugal",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "France",
+                "Germany",
+                "England"
+            ],
+            "question": "What national team won the 2016 edition of UEFA European Championship?",
+            "type": "multiple"
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "correct_answer": "Jill Valentine",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "Chris Redfield",
+                "Sherry Birkin",
+                "Helena Harper"
+            ],
+            "question": "Which of the following characters is NOT playable in &quot;Resident Evil 6&quot;?",
+            "type": "multiple"
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "correct_answer": "3",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "2",
+                "4",
+                "5"
+            ],
+            "question": "How many games are there in the &quot;Colony Wars&quot; series for the PlayStation?",
+            "type": "multiple"
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "correct_answer": "Legion Commander",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "Axe",
+                "Keeper of the Light",
+                "Templar Assassin"
+            ],
+            "question": "Which Dota 1 hero changed gender when ported to Dota 2?",
+            "type": "multiple"
+        },
+        {
+            "category": "History",
+            "correct_answer": "Winston Churchill",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "Neville Chamberlain",
+                "Harold Macmillan",
+                "Edward Heath"
+            ],
+            "question": "Who was the Prime Minister of the United Kingdom for most of World War II?",
+            "type": "multiple"
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "correct_answer": "Occultic; Nine",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "Steins; Gate",
+                "Robotics; Notes",
+                "Chaos; Child"
+            ],
+            "question": "Which game is NOT part of the Science Adventure series by 5pb. and Nitroplus?",
+            "type": "multiple"
+        },
+        {
+            "category": "Geography",
+            "correct_answer": "Rhode Island ",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "Maine",
+                "Vermont",
+                "Massachusetts"
+            ],
+            "question": "Which state of the United States is the smallest?",
+            "type": "multiple"
+        },
+        {
+            "category": "Entertainment: Television",
+            "correct_answer": "Jessica",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "Angela",
+                "Erica",
+                "Sandra"
+            ],
+            "question": "What is the title of The Allman Brothers Band instrumental used as the theme to the BBC motoring show, &#039;Top Gear&#039;?",
+            "type": "multiple"
+        },
+        {
+            "category": "Politics",
+            "correct_answer": "2000",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "2012",
+                "1988",
+                "2008"
+            ],
+            "question": "Before 2016, in which other year did Donald Trump run for President?",
+            "type": "multiple"
+        },
+        {
+            "category": "Geography",
+            "correct_answer": "Peru",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "Brazil",
+                "Colombia",
+                "Ecuador"
+            ],
+            "question": "Where are the Nazca Lines located?",
+            "type": "multiple"
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "correct_answer": "Tim",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "Boregard",
+                "James",
+                "Jackson"
+            ],
+            "question": "What is the main character&#039;s name in &quot;Braid&quot;?",
+            "type": "multiple"
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "correct_answer": "Cipher",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "Mobius 1",
+                "Blaze",
+                "Pixy"
+            ],
+            "question": "Who is the main protagonist of &quot;Ace Combat Zero: The Belkan War&quot;?",
+            "type": "multiple"
+        },
+        {
+            "category": "Entertainment: Comics",
+            "correct_answer": "Lien-Da",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "Kragok",
+                "Dimitri",
+                "Remington"
+            ],
+            "question": "In the comics, which Sonic character took command of the Dark Legion after Luger&#039;s assassination?",
+            "type": "multiple"
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "correct_answer": "Liam Neeson",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "Kiefer Sutherland",
+                "Brendan Gleeson",
+                "Robbie Coltrane"
+            ],
+            "question": "Which actor provided the voice for the main character&#039;s father in Fallout 3?",
+            "type": "multiple"
+        },
+        {
+            "category": "Entertainment: Music",
+            "correct_answer": "MGMT",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "Passion Pit",
+                "Phoenix",
+                "Franz Ferdinand"
+            ],
+            "question": "Which band released songs such as &quot;Electric Feel&quot;, &quot;Kids&quot;, and &quot;Time to Pretend&quot;?",
+            "type": "multiple"
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "correct_answer": "The Elder Scrolls IV: Oblivion",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "The Elder Scrolls V: Skyrim",
+                "The Elder Scrolls III: Morrowind ",
+                "The Elder Scrolls Online"
+            ],
+            "question": "Sean Bean voices the character of &quot;Martin Septim&quot; in which Elder Scrolls game?",
+            "type": "multiple"
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "correct_answer": "Termina",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "Hyrule",
+                "Gysahl",
+                "Besaid"
+            ],
+            "question": "Where does &quot;The Legend of Zelda: Majora&#039;s Mask&quot; take place?",
+            "type": "multiple"
+        },
+        {
+            "category": "Entertainment: Japanese Anime &amp; Manga",
+            "correct_answer": "Josuke Higashikata",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "Yoshikage kira",
+                "Koichi Hirose",
+                "Joey JoJo"
+            ],
+            "question": "The main protagonist of the fourth part of JoJo&#039;s Bizarre Adventure is which of the following?",
+            "type": "multiple"
+        },
+        {
+            "category": "Entertainment: Film",
+            "correct_answer": "Benjamin Franklin Gates",
+            "difficulty": "medium",
+            "incorrect_answers": [
+                "Thomas Jefferson Walker",
+                "George Washington Swanson",
+                "John Quincy Beckett"
+            ],
+            "question": "What is the name of the character Nicolas Cage plays in the movie &quot;National Treasure?&quot;",
+            "type": "multiple"
+        }
+    ]
+}
