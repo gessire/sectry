@@ -41,6 +41,9 @@ void MainWindow::on_subnamebtn_clicked()
 void MainWindow::on_pvpstartbtn_clicked()
 {
     ui->stackedWidget->setCurrentIndex(3);
+    second =0;
+    connect(&timer ,SIGNAL(timeout()),this,SLOT(time()));
+    timer.start(1000);
 }
 
 
@@ -89,5 +92,17 @@ void MainWindow::on_pushButton_3_clicked()
 void MainWindow::on_pushButton_4_clicked()
 {
     ui->stackedWidget->setCurrentIndex(0);
+}
+
+void MainWindow::time()
+{
+    second=second+1;
+    if (second==30){
+        second=0;
+        ui->stackedWidget->setCurrentIndex(3);
+    }
+    else{
+        ui->lcdNumber->display(second);
+    }
 }
 

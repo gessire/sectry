@@ -24,7 +24,7 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>7</number>
+     <number>0</number>
     </property>
     <widget class="QWidget" name="p0">
      <widget class="QPushButton" name="pvpbtn">
@@ -476,7 +476,7 @@ p, li { white-space: pre-wrap; }
      <widget class="QPushButton" name="nextbtn">
       <property name="geometry">
        <rect>
-        <x>500</x>
+        <x>490</x>
         <y>410</y>
         <width>80</width>
         <height>22</height>
@@ -486,24 +486,11 @@ p, li { white-space: pre-wrap; }
        <string>next</string>
       </property>
      </widget>
-     <widget class="QProgressBar" name="progressBar">
-      <property name="geometry">
-       <rect>
-        <x>80</x>
-        <y>410</y>
-        <width>118</width>
-        <height>23</height>
-       </rect>
-      </property>
-      <property name="value">
-       <number>24</number>
-      </property>
-     </widget>
      <widget class="QLabel" name="label_5">
       <property name="geometry">
        <rect>
-        <x>240</x>
-        <y>35</y>
+        <x>100</x>
+        <y>40</y>
         <width>171</width>
         <height>41</height>
        </rect>
@@ -512,6 +499,28 @@ p, li { white-space: pre-wrap; }
        <string>player :</string>
       </property>
      </widget>
+     <widget class="QWidget" name="verticalLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>20</y>
+        <width>160</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QLabel" name="label_8">
+         <property name="text">
+          <string>Timer :</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLCDNumber" name="lcdNumber"/>
+       </item>
+      </layout>
+     </widget>
      <zorder>graphicsView</zorder>
      <zorder>radioButton_4</zorder>
      <zorder>radioButton_5</zorder>
@@ -519,8 +528,8 @@ p, li { white-space: pre-wrap; }
      <zorder>radioButton_7</zorder>
      <zorder>textBrowser</zorder>
      <zorder>nextbtn</zorder>
-     <zorder>progressBar</zorder>
      <zorder>label_5</zorder>
+     <zorder>verticalLayoutWidget</zorder>
     </widget>
     <widget class="QWidget" name="p4">
      <widget class="QGroupBox" name="groupBox_3">
