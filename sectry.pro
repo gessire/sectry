@@ -10,6 +10,7 @@ CONFIG += c++11
 
 SOURCES += \
     Category.cpp \
+    PVPGame.cpp \
     Player.cpp \
     Question.cpp \
     TriviaAPI.cpp \
@@ -18,6 +19,7 @@ SOURCES += \
 
 HEADERS += \
     Category.h \
+    PVPGame.h \
     Player.h \
     Question.h \
     TriviaAPI.h \
@@ -36,3 +38,5 @@ LIBS += \
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+DISTFILES +=
