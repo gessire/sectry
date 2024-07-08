@@ -12,6 +12,7 @@ SOURCES += \
     Category.cpp \
     Player.cpp \
     Question.cpp \
+    TriviaAPI.cpp \
     main.cpp \
     mainwindow.cpp
 
@@ -19,6 +20,7 @@ HEADERS += \
     Category.h \
     Player.h \
     Question.h \
+    TriviaAPI.h \
     mainwindow.h
 
 FORMS += \

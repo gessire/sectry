@@ -1,7 +1,7 @@
 #ifndef QUESTION_H
 #define QUESTION_H
 
-#include <QtAlgorithms>>
+#include <QtAlgorithms>
 #include <QString>
 #include <QVector>
 #include "Category.h"
