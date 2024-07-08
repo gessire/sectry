@@ -27,7 +27,7 @@
      <number>0</number>
     </property>
     <widget class="QWidget" name="p0">
-     <widget class="QPushButton" name="pvpbtn">
+     <widget class="QPushButton" name="pvp_btn">
       <property name="geometry">
        <rect>
         <x>300</x>
@@ -40,7 +40,7 @@
        <string>PVP</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="survivalbtn">
+     <widget class="QPushButton" name="survival_btn">
       <property name="geometry">
        <rect>
         <x>750</x>
@@ -53,7 +53,7 @@
        <string>SURVIVAL</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="exitbtn">
+     <widget class="QPushButton" name="exit_btn">
       <property name="geometry">
        <rect>
         <x>550</x>
@@ -90,7 +90,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
      </widget>
     </widget>
     <widget class="QWidget" name="p1">
-     <widget class="QPushButton" name="subnamebtn">
+     <widget class="QPushButton" name="pvp_submit_btn">
       <property name="geometry">
        <rect>
         <x>510</x>
@@ -113,7 +113,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
        </rect>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton">
+     <widget class="QPushButton" name="pvp_back_btn">
       <property name="geometry">
        <rect>
         <x>80</x>
@@ -149,7 +149,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
         </widget>
        </item>
        <item>
-        <widget class="QLineEdit" name="lineEdit"/>
+        <widget class="QLineEdit" name="player1_name"/>
        </item>
       </layout>
      </widget>
@@ -176,13 +176,13 @@ li.checked::marker { content: &quot;\2612&quot;; }
         </widget>
        </item>
        <item>
-        <widget class="QLineEdit" name="lineEdit_3"/>
+        <widget class="QLineEdit" name="player2_name"/>
        </item>
       </layout>
      </widget>
      <zorder>listView</zorder>
-     <zorder>subnamebtn</zorder>
-     <zorder>pushButton</zorder>
+     <zorder>pvp_submit_btn</zorder>
+     <zorder>pvp_back_btn</zorder>
      <zorder>horizontalLayoutWidget</zorder>
      <zorder>horizontalLayoutWidget_2</zorder>
     </widget>
@@ -192,142 +192,181 @@ li.checked::marker { content: &quot;\2612&quot;; }
        <rect>
         <x>200</x>
         <y>180</y>
-        <width>301</width>
+        <width>361</width>
         <height>161</height>
        </rect>
       </property>
       <property name="title">
-       <string>Category</string>
+       <string/>
       </property>
-      <widget class="QComboBox" name="comboBox">
+      <widget class="QWidget" name="horizontalLayoutWidget_3">
        <property name="geometry">
         <rect>
-         <x>40</x>
-         <y>70</y>
-         <width>201</width>
-         <height>31</height>
+         <x>50</x>
+         <y>20</y>
+         <width>281</width>
+         <height>80</height>
         </rect>
        </property>
-       <item>
-        <property name="text">
-         <string>Art</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Computer</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>General Knowledge</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Books</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Film</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Music</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Science &amp; Nature</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Sport</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>History</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Geography</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Animals</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Musicals &amp; Theatres</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Television</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Video Games </string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Board Games </string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Mathematics</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Mythology</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Politics </string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Celebrities </string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Vehicles</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Comics</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Gadgets</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Anime &amp; Manga</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Cartoon &amp; Animations</string>
-        </property>
-       </item>
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <item>
+         <widget class="QLabel" name="label_4">
+          <property name="text">
+           <string>Current Turn: </string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="pvp_turn_showcase">
+          <property name="readOnly">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="horizontalLayoutWidget_4">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>80</y>
+         <width>281</width>
+         <height>80</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_4">
+        <item>
+         <widget class="QLabel" name="label_6">
+          <property name="text">
+           <string>Category:       </string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="pvp_category_selection">
+          <item>
+           <property name="text">
+            <string>General Knowledge</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Entertainment: Books</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Entertainment: Film</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Entertainment: Music</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Entertainment: Musicals &amp; Theatres</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Entertainment: Television</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Entertainment: Video Games</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Entertainment: Board Games</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Science &amp; Nature</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Science: Computers</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Science: Mathematics</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Mythology</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Sports</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Geography</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>History</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Politics</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Art</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Celebrities</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Animals</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Vehicles</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Entertainment: Comics</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Science: Gadgets</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Entertainment: Japanese Anime &amp; Manga</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Entertainment: Cartoon &amp; Animations</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
       </widget>
      </widget>
      <widget class="QGroupBox" name="groupBox_2">
@@ -353,21 +392,21 @@ li.checked::marker { content: &quot;\2612&quot;; }
        </property>
        <layout class="QVBoxLayout" name="verticalLayout_3">
         <item>
-         <widget class="QRadioButton" name="radioButton">
+         <widget class="QRadioButton" name="pvp_easy_btn">
           <property name="text">
            <string>Easy</string>
           </property>
          </widget>
         </item>
         <item>
-         <widget class="QRadioButton" name="radioButton_2">
+         <widget class="QRadioButton" name="pvp_medium_btn">
           <property name="text">
            <string>Medium</string>
           </property>
          </widget>
         </item>
         <item>
-         <widget class="QRadioButton" name="radioButton_3">
+         <widget class="QRadioButton" name="pvp_hard_btn">
           <property name="text">
            <string>Hard</string>
           </property>
@@ -376,7 +415,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
        </layout>
       </widget>
      </widget>
-     <widget class="QPushButton" name="pvpstartbtn">
+     <widget class="QPushButton" name="pvp_start_btn">
       <property name="geometry">
        <rect>
         <x>490</x>
@@ -391,7 +430,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
      </widget>
     </widget>
     <widget class="QWidget" name="p3">
-     <widget class="QPushButton" name="nextbtn">
+     <widget class="QPushButton" name="pvp_question_btn">
       <property name="geometry">
        <rect>
         <x>940</x>
@@ -403,28 +442,6 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="text">
        <string>Start</string>
       </property>
-     </widget>
-     <widget class="QWidget" name="verticalLayoutWidget">
-      <property name="geometry">
-       <rect>
-        <x>110</x>
-        <y>590</y>
-        <width>160</width>
-        <height>80</height>
-       </rect>
-      </property>
-      <layout class="QVBoxLayout" name="verticalLayout">
-       <item>
-        <widget class="QLabel" name="label_8">
-         <property name="text">
-          <string>Timer :</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QLCDNumber" name="lcdNumber"/>
-       </item>
-      </layout>
      </widget>
      <widget class="QLabel" name="label_5">
       <property name="geometry">
@@ -583,7 +600,6 @@ li.checked::marker { content: &quot;\2612&quot;; }
        <bool>true</bool>
       </property>
      </widget>
-     <zorder>verticalLayoutWidget</zorder>
      <zorder>label_5</zorder>
      <zorder>pvp_difficulty_showcase</zorder>
      <zorder>label_10</zorder>
@@ -593,10 +609,130 @@ li.checked::marker { content: &quot;\2612&quot;; }
      <zorder>groupBox_7</zorder>
      <zorder>label_12</zorder>
      <zorder>pvp_category_showcase</zorder>
-     <zorder>nextbtn</zorder>
+     <zorder>pvp_question_btn</zorder>
     </widget>
     <widget class="QWidget" name="p4">
-     <widget class="QPushButton" name="startbtn">
+     <widget class="QTextBrowser" name="RoundWinner">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>140</y>
+        <width>231</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+li.unchecked::marker { content: &quot;\2610&quot;; }
+li.checked::marker { content: &quot;\2612&quot;; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:16pt; color:#55aaff;&quot;&gt;Winner :&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:22pt; color:#55aaff;&quot;&gt;name &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:10pt; color:#55aaff;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_5">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>310</y>
+        <width>121</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>player 1 score :</string>
+      </property>
+      <widget class="QLabel" name="player1_score">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>50</y>
+         <width>47</width>
+         <height>14</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_6">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>310</y>
+        <width>121</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>player 2 score :</string>
+      </property>
+      <widget class="QLabel" name="player2_score">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>50</y>
+         <width>47</width>
+         <height>14</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QPushButton" name="pvp_nextround_btn">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>480</y>
+        <width>151</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Start new Game</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pvp_exit_btn">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>580</y>
+        <width>111</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Exit </string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>60</y>
+        <width>231</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Round Winner :</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="p5">
+     <widget class="QPushButton" name="survival_start_btn">
       <property name="geometry">
        <rect>
         <x>480</x>
@@ -609,7 +745,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
        <string>Start</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_3">
+     <widget class="QPushButton" name="survival_back_btn">
       <property name="geometry">
        <rect>
         <x>60</x>
@@ -736,8 +872,8 @@ li.checked::marker { content: &quot;\2612&quot;; }
       </widget>
      </widget>
     </widget>
-    <widget class="QWidget" name="p5">
-     <widget class="QPushButton" name="nextsurbtn">
+    <widget class="QWidget" name="p6">
+     <widget class="QPushButton" name="survival_next_btn">
       <property name="geometry">
        <rect>
         <x>920</x>
@@ -749,28 +885,6 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <property name="text">
        <string>Next</string>
       </property>
-     </widget>
-     <widget class="QWidget" name="verticalLayoutWidget_2">
-      <property name="geometry">
-       <rect>
-        <x>60</x>
-        <y>610</y>
-        <width>161</width>
-        <height>81</height>
-       </rect>
-      </property>
-      <layout class="QVBoxLayout" name="verticalLayout_2">
-       <item>
-        <widget class="QLabel" name="label_9">
-         <property name="text">
-          <string>Timer :</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QLCDNumber" name="lcdNumber_2"/>
-       </item>
-      </layout>
      </widget>
      <widget class="QLineEdit" name="survival_category_showcase">
       <property name="geometry">
@@ -982,126 +1096,6 @@ li.checked::marker { content: &quot;\2612&quot;; }
       </property>
      </widget>
     </widget>
-    <widget class="QWidget" name="p6">
-     <widget class="QTextBrowser" name="textBrowser_3">
-      <property name="geometry">
-       <rect>
-        <x>390</x>
-        <y>140</y>
-        <width>231</width>
-        <height>131</height>
-       </rect>
-      </property>
-      <property name="html">
-       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-hr { height: 1px; border-width: 0; }
-li.unchecked::marker { content: &quot;\2610&quot;; }
-li.checked::marker { content: &quot;\2612&quot;; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:16pt; color:#55aaff;&quot;&gt;Winner :&lt;/span&gt;&lt;/p&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:22pt; color:#55aaff;&quot;&gt;name &lt;/span&gt;&lt;/p&gt;
-&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:10pt; color:#55aaff;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-      </property>
-     </widget>
-     <widget class="QGroupBox" name="groupBox_5">
-      <property name="geometry">
-       <rect>
-        <x>310</x>
-        <y>310</y>
-        <width>121</width>
-        <height>101</height>
-       </rect>
-      </property>
-      <property name="title">
-       <string>player 1 score :</string>
-      </property>
-      <widget class="QLabel" name="label_6">
-       <property name="geometry">
-        <rect>
-         <x>30</x>
-         <y>50</y>
-         <width>47</width>
-         <height>14</height>
-        </rect>
-       </property>
-       <property name="text">
-        <string>TextLabel</string>
-       </property>
-      </widget>
-     </widget>
-     <widget class="QGroupBox" name="groupBox_6">
-      <property name="geometry">
-       <rect>
-        <x>580</x>
-        <y>310</y>
-        <width>121</width>
-        <height>101</height>
-       </rect>
-      </property>
-      <property name="title">
-       <string>player 2 score :</string>
-      </property>
-      <widget class="QLabel" name="label_7">
-       <property name="geometry">
-        <rect>
-         <x>30</x>
-         <y>50</y>
-         <width>47</width>
-         <height>14</height>
-        </rect>
-       </property>
-       <property name="text">
-        <string>TextLabel</string>
-       </property>
-      </widget>
-     </widget>
-     <widget class="QPushButton" name="pushButton_4">
-      <property name="geometry">
-       <rect>
-        <x>430</x>
-        <y>480</y>
-        <width>151</width>
-        <height>71</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Start new Game</string>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_5">
-      <property name="geometry">
-       <rect>
-        <x>450</x>
-        <y>580</y>
-        <width>111</width>
-        <height>41</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Exit </string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_3">
-      <property name="geometry">
-       <rect>
-        <x>390</x>
-        <y>60</y>
-        <width>231</width>
-        <height>81</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <pointsize>24</pointsize>
-       </font>
-      </property>
-      <property name="text">
-       <string>Round Winner :</string>
-      </property>
-     </widget>
-    </widget>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
@@ -1119,18 +1113,34 @@ li.checked::marker { content: &quot;\2612&quot;; }
  <resources/>
  <connections>
   <connection>
-   <sender>pushButton_5</sender>
+   <sender>pvp_exit_btn</sender>
    <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
    <slot>close()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>194</x>
-     <y>456</y>
+     <x>430</x>
+     <y>581</y>
     </hint>
     <hint type="destinationlabel">
      <x>-58</x>
      <y>469</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>exit_btn</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>582</x>
+     <y>514</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>963</x>
+     <y>708</y>
     </hint>
    </hints>
   </connection>

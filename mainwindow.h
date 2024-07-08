@@ -2,7 +2,6 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include<QTimer>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -18,37 +17,7 @@ public:
 
 private slots:
 
-    void on_pvpbtn_clicked();
-
-    void on_survivalbtn_clicked();
-
-    void on_subnamebtn_clicked();
-
-    void on_pvpstartbtn_clicked();
-
-    void on_nextbtn_clicked();
-
-    void on_recordbtn_clicked();
-
-    void on_startbtn_clicked();
-
-    void on_backbtn_clicked();
-
-    void on_pushButton_clicked();
-
-    void on_pushButton_2_clicked();
-
-    void on_pushButton_3_clicked();
-
-    void on_pushButton_4_clicked();
-
-    void time();
-
-    void time2();
-
 private:
     Ui::MainWindow *ui;
-    short int second;
-    QTimer timer;
 };
 #endif // MAINWINDOW_H
