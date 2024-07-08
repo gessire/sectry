@@ -44,6 +44,8 @@ private slots:
 
     void time();
 
+    void time2();
+
 private:
     Ui::MainWindow *ui;
     short int second;

@@ -42,7 +42,7 @@ void MainWindow::on_pvpstartbtn_clicked()
 {
     ui->stackedWidget->setCurrentIndex(3);
     second =0;
-    connect(&timer ,SIGNAL(timeout()),this,SLOT(time()));
+    connect(&timer ,SIGNAL(timeout()),this,SLOT(time2()));
     timer.start(1000);
 }
 
@@ -62,6 +62,9 @@ void MainWindow::on_recordbtn_clicked()
 void MainWindow::on_startbtn_clicked()
 {
     ui->stackedWidget->setCurrentIndex(6);
+    second =0;
+    connect(&timer ,SIGNAL(timeout()),this,SLOT(time2()));
+    timer.start(1000);
 }
 
 
@@ -103,6 +106,18 @@ void MainWindow::time()
     }
     else{
         ui->lcdNumber->display(second);
+    }
+}
+
+void MainWindow::time2()
+{
+    second=second+1;
+    if (second==30){
+        second=0;
+        ui->stackedWidget->setCurrentIndex(3);
+    }
+    else{
+        ui->lcdNumber_2->display(second);
     }
 }
 
