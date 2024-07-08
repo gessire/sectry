@@ -3,422 +3,422 @@
     "results": [
         {
             "category": "Entertainment: Video Games",
-            "correct_answer": "Bayonetta",
-            "difficulty": "medium",
+            "correct_answer": "Live and Learn",
+            "difficulty": "hard",
             "incorrect_answers": [
-                "Cloud",
-                "Ryu",
-                "Megaman"
+                "Open Your Heart",
+                "Can You Feel the Sunshine?",
+                "His World"
             ],
-            "question": "Which of these characters won the Super Smash Bros. Fighter Ballot in 2015?",
-            "type": "multiple"
-        },
-        {
-            "category": "Entertainment: Video Games",
-            "correct_answer": "Montana",
-            "difficulty": "medium",
-            "incorrect_answers": [
-                "Idaho",
-                "Wyoming",
-                "North Carolina"
-            ],
-            "question": "In which U.S. state is Far Cry 5&#039;s fictional setting &#039;Hope County&#039; located?",
-            "type": "multiple"
-        },
-        {
-            "category": "Entertainment: Music",
-            "correct_answer": "John",
-            "difficulty": "medium",
-            "incorrect_answers": [
-                "Paul",
-                "George",
-                "Ringo"
-            ],
-            "question": "Which Beatle led the way across the zebra crossing on the Abbey Road album cover?",
+            "question": "What is the main theme song of &quot;Sonic Adventure 2&quot;?",
             "type": "multiple"
         },
         {
             "category": "Geography",
-            "correct_answer": "North America",
-            "difficulty": "medium",
+            "correct_answer": "Crown",
+            "difficulty": "hard",
             "incorrect_answers": [
-                "South America",
-                "Asia",
-                "Africa"
+                "Bird",
+                "Sickle",
+                "Tree"
             ],
-            "question": "Where is the &quot;Sonoran Desert&quot; located?",
+            "question": "The emblem on the flag of the Republic of Tajikistan features a sunrise over mountains below what symbol?",
             "type": "multiple"
         },
         {
-            "category": "Entertainment: Video Games",
-            "correct_answer": "Madotsuki",
-            "difficulty": "medium",
+            "category": "Science &amp; Nature",
+            "correct_answer": "The separation of a strain from a natural, mixed population of living microbes",
+            "difficulty": "hard",
             "incorrect_answers": [
-                "Masada",
-                "Uboa",
-                "Poniko"
+                "A lack of nutrition in microenviroments",
+                "The nitrogen level in soil",
+                "Testing effects of certain microorganisms in an isolated enviroments, such as caves"
             ],
-            "question": "Who is the character you play as in Yume Nikki?",
-            "type": "multiple"
-        },
-        {
-            "category": "Vehicles",
-            "correct_answer": "Camry",
-            "difficulty": "medium",
-            "incorrect_answers": [
-                "Fusion",
-                "Model A",
-                "F-150"
-            ],
-            "question": "Which one of the following is not made by Ford?",
-            "type": "multiple"
-        },
-        {
-            "category": "Entertainment: Television",
-            "correct_answer": "Look into sky and yell loudly in mourning.",
-            "difficulty": "medium",
-            "incorrect_answers": [
-                "Kiss the jagged forehead before burial.",
-                "Shoot into space in a torpedo casing.",
-                "Split the deceased&#039;s earnings between bloodkin."
-            ],
-            "question": "In &quot;Star Trek&quot;, what is the Klingon death ritual?",
-            "type": "multiple"
-        },
-        {
-            "category": "Science: Computers",
-            "correct_answer": "Luna",
-            "difficulty": "medium",
-            "incorrect_answers": [
-                "Neptune",
-                "Whistler",
-                "Bliss"
-            ],
-            "question": "What is the name of the default theme that is installed with Windows XP?",
-            "type": "multiple"
-        },
-        {
-            "category": "Entertainment: Video Games",
-            "correct_answer": "Adol Christin ",
-            "difficulty": "medium",
-            "incorrect_answers": [
-                "Character doesn&#039;t have a name",
-                "Estelle Bright",
-                "Roger Wilco"
-            ],
-            "question": "Who is the main character in most of the games of the YS series?",
-            "type": "multiple"
-        },
-        {
-            "category": "Entertainment: Video Games",
-            "correct_answer": "Square Enix",
-            "difficulty": "medium",
-            "incorrect_answers": [
-                "Capcom",
-                "Konami",
-                "Blizzard"
-            ],
-            "question": "Which company made the Japanese RPG &quot;Dragon Quest&quot;?",
-            "type": "multiple"
-        },
-        {
-            "category": "History",
-            "correct_answer": "D-Day",
-            "difficulty": "medium",
-            "incorrect_answers": [
-                "Atomic bombings of Hiroshima and Nagasaki",
-                "Attack on Pearl Harbor",
-                "The Liberation of Paris"
-            ],
-            "question": "What happened on June 6, 1944?",
-            "type": "multiple"
-        },
-        {
-            "category": "Art",
-            "correct_answer": "Salvador Dali",
-            "difficulty": "medium",
-            "incorrect_answers": [
-                "Pablo Picasso",
-                "Andy Warhol",
-                "Vincent van Gogh"
-            ],
-            "question": "Who designed the Chupa Chups logo?",
-            "type": "multiple"
-        },
-        {
-            "category": "Entertainment: Film",
-            "correct_answer": "Steve Buscemi",
-            "difficulty": "medium",
-            "incorrect_answers": [
-                "Kevin Spacey",
-                "Benicio Del Toro",
-                "Gabriel Byrne"
-            ],
-            "question": "Which of the following actors does not play a role in the movie &quot;The Usual Suspects?&quot;",
-            "type": "multiple"
-        },
-        {
-            "category": "Entertainment: Film",
-            "correct_answer": "Sugar",
-            "difficulty": "medium",
-            "incorrect_answers": [
-                "Honey",
-                "Caramel",
-                "Candy"
-            ],
-            "question": "What was Marilyn Monroe`s character&#039;s first name in the film &quot;Some Like It Hot&quot;?",
+            "question": "What does the term &quot;isolation&quot; refer to in microbiology?",
             "type": "multiple"
         },
         {
             "category": "Entertainment: Books",
-            "correct_answer": "Procompsognathus",
-            "difficulty": "medium",
+            "correct_answer": " Osteogenesis Imperfecta",
+            "difficulty": "hard",
             "incorrect_answers": [
-                "Dilophosaurus",
-                "Tyrannosaurus Rex",
-                "Velociraptor"
+                "Spinocerebellar ataxia",
+                "Adrenoleukodystrophy",
+                "Cystic Fibrosis"
             ],
-            "question": "In Michael Crichton&#039;s novel &quot;Jurassic Park&quot;, John Hammond meets his demise at the claws of which dinosaur?",
+            "question": "In the book series &quot;Odd Thomas&quot;, Danny Jessup has what genetic disease? ",
+            "type": "multiple"
+        },
+        {
+            "category": "Mythology",
+            "correct_answer": "Jens",
+            "difficulty": "hard",
+            "incorrect_answers": [
+                "Loki",
+                "Tyr",
+                "Snotra"
+            ],
+            "question": "Which of the following is NOT a god in Norse Mythology.",
+            "type": "multiple"
+        },
+        {
+            "category": "Entertainment: Cartoon &amp; Animations",
+            "correct_answer": "15 pounds",
+            "difficulty": "hard",
+            "incorrect_answers": [
+                "20 pounds",
+                "10 pounds",
+                "30 pounds"
+            ],
+            "question": "In &quot;Gravity Falls&quot;, how much does Waddles weigh when Mable wins him in &quot;The Time Traveler&#039;s Pig&quot;?",
             "type": "multiple"
         },
         {
             "category": "Entertainment: Video Games",
-            "correct_answer": "Worms 4: Mayhem",
-            "difficulty": "medium",
+            "correct_answer": "8",
+            "difficulty": "hard",
             "incorrect_answers": [
-                "Worms W.M.D",
-                "Worms Reloaded",
-                "Worms: Open Warfare 2"
+                "6",
+                "10",
+                "12"
             ],
-            "question": "Which of these &quot;Worms&quot; games featured 3D gameplay?",
-            "type": "multiple"
-        },
-        {
-            "category": "Sports",
-            "correct_answer": "Portugal",
-            "difficulty": "medium",
-            "incorrect_answers": [
-                "France",
-                "Germany",
-                "England"
-            ],
-            "question": "What national team won the 2016 edition of UEFA European Championship?",
+            "question": "How many voice channels does the Super Nintendo Entertainment System support?",
             "type": "multiple"
         },
         {
             "category": "Entertainment: Video Games",
-            "correct_answer": "Jill Valentine",
-            "difficulty": "medium",
+            "correct_answer": "91.28 m/s^2",
+            "difficulty": "hard",
             "incorrect_answers": [
-                "Chris Redfield",
-                "Sherry Birkin",
-                "Helena Harper"
+                "110  m/s^2",
+                "9.42  m/s^2",
+                "4.4  m/s^2"
             ],
-            "question": "Which of the following characters is NOT playable in &quot;Resident Evil 6&quot;?",
+            "question": "In the original &quot;Super Mario Bros.&quot;, what is the acceleration of Mario if he was in free fall?",
             "type": "multiple"
         },
         {
-            "category": "Entertainment: Video Games",
-            "correct_answer": "3",
-            "difficulty": "medium",
+            "category": "Science: Computers",
+            "correct_answer": "Kibibyte",
+            "difficulty": "hard",
             "incorrect_answers": [
-                "2",
-                "4",
-                "5"
+                "Kylobyte",
+                "Kilobyte",
+                "Kelobyte"
             ],
-            "question": "How many games are there in the &quot;Colony Wars&quot; series for the PlayStation?",
+            "question": "What does the International System of Quantities refer 1024 bytes as?",
             "type": "multiple"
         },
         {
-            "category": "Entertainment: Video Games",
-            "correct_answer": "Legion Commander",
-            "difficulty": "medium",
+            "category": "Entertainment: Board Games",
+            "correct_answer": "Tarrasque",
+            "difficulty": "hard",
             "incorrect_answers": [
-                "Axe",
-                "Keeper of the Light",
-                "Templar Assassin"
+                "Beholder",
+                "Displacer Beast",
+                "Lich"
             ],
-            "question": "Which Dota 1 hero changed gender when ported to Dota 2?",
+            "question": "What is the most challenging monster in the Dungeons &amp; Dragons 5th Edition Monster Manual?",
             "type": "multiple"
         },
         {
-            "category": "History",
-            "correct_answer": "Winston Churchill",
-            "difficulty": "medium",
+            "category": "Animals",
+            "correct_answer": "Feliformia",
+            "difficulty": "hard",
             "incorrect_answers": [
-                "Neville Chamberlain",
-                "Harold Macmillan",
-                "Edward Heath"
+                "Haplorhini",
+                "Caniformia",
+                "Ciconiiformes"
             ],
-            "question": "Who was the Prime Minister of the United Kingdom for most of World War II?",
-            "type": "multiple"
-        },
-        {
-            "category": "Entertainment: Video Games",
-            "correct_answer": "Occultic; Nine",
-            "difficulty": "medium",
-            "incorrect_answers": [
-                "Steins; Gate",
-                "Robotics; Notes",
-                "Chaos; Child"
-            ],
-            "question": "Which game is NOT part of the Science Adventure series by 5pb. and Nitroplus?",
+            "question": "What scientific suborder does the family Hyaenidae belong to?",
             "type": "multiple"
         },
         {
             "category": "Geography",
-            "correct_answer": "Rhode Island ",
-            "difficulty": "medium",
+            "correct_answer": "Indonesia",
+            "difficulty": "hard",
             "incorrect_answers": [
-                "Maine",
-                "Vermont",
-                "Massachusetts"
+                "Chile",
+                "New Zealand",
+                "Fiji"
             ],
-            "question": "Which state of the United States is the smallest?",
+            "question": "The Maluku islands (informally known as the Spice Islands) belong to which country?",
+            "type": "multiple"
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "correct_answer": "105",
+            "difficulty": "hard",
+            "incorrect_answers": [
+                "100",
+                "98",
+                "73"
+            ],
+            "question": "How many total monsters appear in Monster Hunter Generations?",
+            "type": "multiple"
+        },
+        {
+            "category": "Entertainment: Musicals &amp; Theatres",
+            "correct_answer": "Stephen Sondheim",
+            "difficulty": "hard",
+            "incorrect_answers": [
+                "Himself",
+                "Oscar Hammerstein",
+                "Richard Rodgers"
+            ],
+            "question": "Who wrote the lyrics for Leonard Bernstein&#039;s 1957 Brodway musical West Side Story?",
+            "type": "multiple"
+        },
+        {
+            "category": "Science: Computers",
+            "correct_answer": "Micronesia",
+            "difficulty": "hard",
+            "incorrect_answers": [
+                "Fiji",
+                "Tuvalu",
+                "Marshall Islands"
+            ],
+            "question": "The internet domain .fm is the country-code top-level domain for which Pacific Ocean island nation?",
+            "type": "multiple"
+        },
+        {
+            "category": "General Knowledge",
+            "correct_answer": "Thing",
+            "difficulty": "hard",
+            "incorrect_answers": [
+                "People",
+                "Place",
+                "Pineapple"
+            ],
+            "question": "The Swedish word &quot;Grunka&quot; means what in English?",
             "type": "multiple"
         },
         {
             "category": "Entertainment: Television",
-            "correct_answer": "Jessica",
-            "difficulty": "medium",
+            "correct_answer": "Amanda Barrie",
+            "difficulty": "hard",
             "incorrect_answers": [
-                "Angela",
-                "Erica",
-                "Sandra"
+                "Sue Nicholls",
+                "Violet Carson",
+                "Jean Alexander"
             ],
-            "question": "What is the title of The Allman Brothers Band instrumental used as the theme to the BBC motoring show, &#039;Top Gear&#039;?",
-            "type": "multiple"
-        },
-        {
-            "category": "Politics",
-            "correct_answer": "2000",
-            "difficulty": "medium",
-            "incorrect_answers": [
-                "2012",
-                "1988",
-                "2008"
-            ],
-            "question": "Before 2016, in which other year did Donald Trump run for President?",
-            "type": "multiple"
-        },
-        {
-            "category": "Geography",
-            "correct_answer": "Peru",
-            "difficulty": "medium",
-            "incorrect_answers": [
-                "Brazil",
-                "Colombia",
-                "Ecuador"
-            ],
-            "question": "Where are the Nazca Lines located?",
-            "type": "multiple"
-        },
-        {
-            "category": "Entertainment: Video Games",
-            "correct_answer": "Tim",
-            "difficulty": "medium",
-            "incorrect_answers": [
-                "Boregard",
-                "James",
-                "Jackson"
-            ],
-            "question": "What is the main character&#039;s name in &quot;Braid&quot;?",
-            "type": "multiple"
-        },
-        {
-            "category": "Entertainment: Video Games",
-            "correct_answer": "Cipher",
-            "difficulty": "medium",
-            "incorrect_answers": [
-                "Mobius 1",
-                "Blaze",
-                "Pixy"
-            ],
-            "question": "Who is the main protagonist of &quot;Ace Combat Zero: The Belkan War&quot;?",
-            "type": "multiple"
-        },
-        {
-            "category": "Entertainment: Comics",
-            "correct_answer": "Lien-Da",
-            "difficulty": "medium",
-            "incorrect_answers": [
-                "Kragok",
-                "Dimitri",
-                "Remington"
-            ],
-            "question": "In the comics, which Sonic character took command of the Dark Legion after Luger&#039;s assassination?",
-            "type": "multiple"
-        },
-        {
-            "category": "Entertainment: Video Games",
-            "correct_answer": "Liam Neeson",
-            "difficulty": "medium",
-            "incorrect_answers": [
-                "Kiefer Sutherland",
-                "Brendan Gleeson",
-                "Robbie Coltrane"
-            ],
-            "question": "Which actor provided the voice for the main character&#039;s father in Fallout 3?",
-            "type": "multiple"
-        },
-        {
-            "category": "Entertainment: Music",
-            "correct_answer": "MGMT",
-            "difficulty": "medium",
-            "incorrect_answers": [
-                "Passion Pit",
-                "Phoenix",
-                "Franz Ferdinand"
-            ],
-            "question": "Which band released songs such as &quot;Electric Feel&quot;, &quot;Kids&quot;, and &quot;Time to Pretend&quot;?",
-            "type": "multiple"
-        },
-        {
-            "category": "Entertainment: Video Games",
-            "correct_answer": "The Elder Scrolls IV: Oblivion",
-            "difficulty": "medium",
-            "incorrect_answers": [
-                "The Elder Scrolls V: Skyrim",
-                "The Elder Scrolls III: Morrowind ",
-                "The Elder Scrolls Online"
-            ],
-            "question": "Sean Bean voices the character of &quot;Martin Septim&quot; in which Elder Scrolls game?",
-            "type": "multiple"
-        },
-        {
-            "category": "Entertainment: Video Games",
-            "correct_answer": "Termina",
-            "difficulty": "medium",
-            "incorrect_answers": [
-                "Hyrule",
-                "Gysahl",
-                "Besaid"
-            ],
-            "question": "Where does &quot;The Legend of Zelda: Majora&#039;s Mask&quot; take place?",
-            "type": "multiple"
-        },
-        {
-            "category": "Entertainment: Japanese Anime &amp; Manga",
-            "correct_answer": "Josuke Higashikata",
-            "difficulty": "medium",
-            "incorrect_answers": [
-                "Yoshikage kira",
-                "Koichi Hirose",
-                "Joey JoJo"
-            ],
-            "question": "The main protagonist of the fourth part of JoJo&#039;s Bizarre Adventure is which of the following?",
+            "question": "Which former Coronation Street actress was once a hostess on the British Game Show &quot;Double Your Money&quot;?",
             "type": "multiple"
         },
         {
             "category": "Entertainment: Film",
-            "correct_answer": "Benjamin Franklin Gates",
-            "difficulty": "medium",
+            "correct_answer": "Bombardier Billy Wells",
+            "difficulty": "hard",
             "incorrect_answers": [
-                "Thomas Jefferson Walker",
-                "George Washington Swanson",
-                "John Quincy Beckett"
+                "Freddie Mills",
+                "Terry Spinks",
+                "Don Cockell"
             ],
-            "question": "What is the name of the character Nicolas Cage plays in the movie &quot;National Treasure?&quot;",
+            "question": "Which boxer was famous for striking the gong in the introduction to J. Arthur Rank films?",
+            "type": "multiple"
+        },
+        {
+            "category": "Entertainment: Books",
+            "correct_answer": "The Prince and the Pauper",
+            "difficulty": "hard",
+            "incorrect_answers": [
+                "Hamlet",
+                "Wealthy Boy and the Schmuck",
+                "A Modern Twain Story"
+            ],
+            "question": "In which classic novel by Mark Twain did a beggar and Prince of Wales switch clothes, and learn about social class inequality?",
+            "type": "multiple"
+        },
+        {
+            "category": "General Knowledge",
+            "correct_answer": "Green",
+            "difficulty": "hard",
+            "incorrect_answers": [
+                "Red",
+                "Black",
+                "Purple"
+            ],
+            "question": "Chartreuse is a color between yellow and what?",
+            "type": "multiple"
+        },
+        {
+            "category": "Entertainment: Film",
+            "correct_answer": "Verdi",
+            "difficulty": "hard",
+            "incorrect_answers": [
+                "Mozart",
+                "Berlioz",
+                "Brahms"
+            ],
+            "question": "The film Mad Max: Fury Road features the Dies Irae  from which composer&#039;s requiem?",
+            "type": "multiple"
+        },
+        {
+            "category": "Science: Mathematics",
+            "correct_answer": "1F",
+            "difficulty": "hard",
+            "incorrect_answers": [
+                "3D",
+                "2E",
+                "1B"
+            ],
+            "question": "The decimal number 31 in hexadecimal would be what?",
+            "type": "multiple"
+        },
+        {
+            "category": "Sports",
+            "correct_answer": "Vladivostok",
+            "difficulty": "hard",
+            "incorrect_answers": [
+                "Rostov-on-Don",
+                "Yekaterinburg",
+                "Kaliningrad"
+            ],
+            "question": "Which of these Russian cities did NOT contain a stadium that was used in the 2018 FIFA World Cup?",
+            "type": "multiple"
+        },
+        {
+            "category": "Entertainment: Cartoon &amp; Animations",
+            "correct_answer": "The Slag Brothers",
+            "difficulty": "hard",
+            "incorrect_answers": [
+                "The Slate Brothers",
+                "The Rock Brothers",
+                "The Stone Brothers"
+            ],
+            "question": "In the 1968 Cartoon Show &quot;Wacky Races&quot; what was the name of cavemen duo who rode in The Boulder Mobile?",
+            "type": "multiple"
+        },
+        {
+            "category": "Science: Computers",
+            "correct_answer": "ADPCM Sampler",
+            "difficulty": "hard",
+            "incorrect_answers": [
+                "FM Synthesizer",
+                "Programmable Sound Generator (PSG)",
+                "PCM Sampler"
+            ],
+            "question": "What type of sound chip does the Super Nintendo Entertainment System (SNES) have?",
+            "type": "multiple"
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "correct_answer": "The Lead Programmer&#039;s birthday",
+            "difficulty": "hard",
+            "incorrect_answers": [
+                "The first release date of &quot;Sonic the Hedgehog&quot;",
+                "The date Sonic Team was founded",
+                "The first release date of &quot;Sonic the Hedgehog 2&quot;"
+            ],
+            "question": "In &quot;Sonic the Hedgehog 2&quot; for the Sega Genesis, what do you input in the sound test screen to access the secret level select?",
+            "type": "multiple"
+        },
+        {
+            "category": "Entertainment: Comics",
+            "correct_answer": "James Howlett",
+            "difficulty": "hard",
+            "incorrect_answers": [
+                "Logan Wolf",
+                "Thomas Wilde",
+                "John Savage"
+            ],
+            "question": "Better known by his nickname Logan, what is Wolverine&#039;s birth name?",
+            "type": "multiple"
+        },
+        {
+            "category": "Geography",
+            "correct_answer": "Islamabad",
+            "difficulty": "hard",
+            "incorrect_answers": [
+                "Hyderabad",
+                "Ahmedabad",
+                "Ghaziabad"
+            ],
+            "question": "Which of these is NOT a city in India?",
+            "type": "multiple"
+        },
+        {
+            "category": "Science: Computers",
+            "correct_answer": "Injection ",
+            "difficulty": "hard",
+            "incorrect_answers": [
+                "Broken Authentication",
+                "Cross-Site Scripting",
+                "Insecure Direct Object References"
+            ],
+            "question": "What vulnerability ranked #1 on the OWASP Top 10 in 2013?",
+            "type": "multiple"
+        },
+        {
+            "category": "Mythology",
+            "correct_answer": "Tree",
+            "difficulty": "hard",
+            "incorrect_answers": [
+                "Mountain",
+                "Temple",
+                "Castle"
+            ],
+            "question": "What immense structure is referred to in Norse Mythology as the Yggdrasil.",
+            "type": "multiple"
+        },
+        {
+            "category": "History",
+            "correct_answer": "32",
+            "difficulty": "hard",
+            "incorrect_answers": [
+                "50",
+                "31",
+                "21"
+            ],
+            "question": "How many sonatas did Ludwig van Beethoven write?",
+            "type": "multiple"
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "correct_answer": "By clearing every 7th episode",
+            "difficulty": "hard",
+            "incorrect_answers": [
+                "By obtaining 70 Shines",
+                "By clearing every episode involving a &quot;Secret&quot;",
+                "By unlocking every nozzle F.L.U.D.D can use"
+            ],
+            "question": "In &quot;Super Mario Sunshine&quot;, how do you unlock the &quot;Corona Mountain&quot; level?",
+            "type": "multiple"
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "correct_answer": "Pen Pen TriIcelon",
+            "difficulty": "hard",
+            "incorrect_answers": [
+                "Sylvester &amp; Tweety in Cagey Capers",
+                "Perfect Dark",
+                "Tetrisphere"
+            ],
+            "question": "Which game was exclusive to Dreamcast?",
+            "type": "multiple"
+        },
+        {
+            "category": "History",
+            "correct_answer": "Operation Dragoon",
+            "difficulty": "hard",
+            "incorrect_answers": [
+                "Operation Overlord",
+                "Operation Market Garden",
+                "Operation Torch"
+            ],
+            "question": "What was the code name for the Allied invasion of Southern France on August 15th, 1944?",
+            "type": "multiple"
+        },
+        {
+            "category": "Entertainment: Comics",
+            "correct_answer": "Dark Elves",
+            "difficulty": "hard",
+            "incorrect_answers": [
+                "Frost Giants",
+                "Kronans",
+                "Skrulls"
+            ],
+            "question": "In the Marvel Universe, the planet of Svartalfheim is home to what race?",
             "type": "multiple"
         }
     ]

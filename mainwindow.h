@@ -36,6 +36,10 @@ private slots:
 
     void on_survival_next_btn_clicked();
 
+    void on_pvp_back_btn_clicked();
+
+    void on_survival_back_btn_clicked();
+
 private:
     int clicked;
     PVPGame pvpgame;

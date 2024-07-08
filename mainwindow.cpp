@@ -158,6 +158,7 @@ void MainWindow::on_pvp_start_btn_clicked()
     ui->pvp_category_showcase->setText("");
     ui->pvp_difficulty_showcase->setText("");
     options_visibility(false);
+    ui->pvp_question_btn->setText("Start");
 }
 
 void MainWindow::on_pvp_question_btn_clicked()
@@ -190,6 +191,7 @@ void MainWindow::on_pvp_question_btn_clicked()
                 QMessageBox::information(this, "Game is finished!", "Game is finished and we have a winner !!");
             }
         } else {
+            ui->pvp_question_btn->setText("Start");
             QString text = "It's " + pvpgame.get_currentPlayer()->get_name() + "'s Turn ...\nIf you are ready click the Start button!";
             ui->pvp_question_showcase->setText(text);
             options_visibility(false);
@@ -263,6 +265,7 @@ void MainWindow::on_survival_start_btn_clicked()
     survivalgame.load_questions();
     int currentIndex = ui->stackedWidget->currentIndex();
     ui->stackedWidget->setCurrentIndex(currentIndex + 1);
+    ui->survival_next_btn->setText("Start");
 }
 
 
@@ -298,5 +301,18 @@ void MainWindow::on_survival_next_btn_clicked()
         ui->stackedWidget->setCurrentIndex(currentIndex - 6);
     }
 
+}
+
+
+void MainWindow::on_pvp_back_btn_clicked()
+{
+    int currentIndex = ui->stackedWidget->currentIndex();
+    ui->stackedWidget->setCurrentIndex(currentIndex - 1);
+}
+
+
+void MainWindow::on_survival_back_btn_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(0);
 }
 
